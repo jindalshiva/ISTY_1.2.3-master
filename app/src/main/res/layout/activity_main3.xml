@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="name" />
+
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner_items"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:entries="@array/Items" />-->
+
+
+    <Spinner
+        android:id="@+id/spinner_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Items" />
+
+    <TextView
+        android:id="@+id/editSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text = "Schedule"
+        />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="on"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/checkbox_On"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add appliance"
+        android:id="@+id/add_button"
+        android:layout_marginTop="15dp"
+        />
+    <ListView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listitemAppliances"
+        />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Auth</string>
+    <array name="Items" >
+        <item name="bulb">BULB</item>
+        <item name="LED">LED</item>
+        <item name="Fan">FAN</item>
+
+        <item name="AC">AC</item>
+        <item name="TV">TV</item>
+    </array>
+    <array name="Place">
+        <item>Living Room</item>
+        <item>Bed Room</item>
+        <item>Kitchen</item>
+        <item>Bathroom</item>
+        <item>Dinning Room</item>
+    </array>
+</resources>
